@@ -15,14 +15,10 @@
 		"Package Control",
 		"Pretty JSON",
 		"React Templates",
-		"RestructuredText Improved",
 		"RustFormat",
 		"SCSS",
 		"StandardFormat",
 		"SublimeLinter",
-		"SublimeLinter-contrib-rustc",
-		"SublimeLinter-contrib-standard",
-		"SublimeLinter-stylelint",
 		"Swift"
 	]
 }

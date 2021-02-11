@@ -9,7 +9,8 @@
 	"ignored_packages":
 	[
 		"JavaScript",
+		"Markdown",
 		"Vintage"
 	],
-	"translate_tabs_to_spaces": true,
+	"translate_tabs_to_spaces": true
 }

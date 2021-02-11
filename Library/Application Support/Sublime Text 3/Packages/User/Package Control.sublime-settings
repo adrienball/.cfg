@@ -1,0 +1,28 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Asciidoctor",
+		"Babel",
+		"Better CoffeeScript",
+		"GitGutter",
+		"LaTeXTools",
+		"MarkdownEditing",
+		"MarkdownPreview",
+		"Package Control",
+		"Pretty JSON",
+		"React Templates",
+		"RestructuredText Improved",
+		"RustFormat",
+		"SCSS",
+		"StandardFormat",
+		"SublimeLinter",
+		"SublimeLinter-contrib-rustc",
+		"SublimeLinter-contrib-standard",
+		"SublimeLinter-stylelint",
+		"Swift"
+	]
+}

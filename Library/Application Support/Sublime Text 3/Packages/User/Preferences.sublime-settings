@@ -1,0 +1,16 @@
+{
+	"added_words":
+	[
+		"localhost",
+		"http"
+	],
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"font_size": 11,
+	"ignored_packages":
+	[
+		"JavaScript",
+		"RestructuredText",
+		"Vintage"
+	],
+	"translate_tabs_to_spaces": true,
+}

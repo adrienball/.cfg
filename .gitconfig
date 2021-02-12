@@ -1,0 +1,51 @@
+[include]
+	path = ~/.gitconfig.local
+
+[credential]
+	helper = osxkeychain
+	useHttpPath = true
+
+[core]
+	excludesfile = ~/.gitignore_global
+
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+
+[pull]
+	rebase = false
+
+[push]
+	default = simple
+
+[commit]
+	template = ~/.stCommitMsg
+
+[alias]
+	# View abbreviated SHA, description, and history graph of the latest 20 commits.
+	l = log --pretty=oneline -n 20 --graph --abbrev-commit
+
+	# Amend the currently staged files to the latest commit.
+	amend = commit --amend --reuse-message=HEAD
+
+	# Find commits by commit message
+	fm = "!f() { git log --pretty=format:'%C(yellow)%h  %Cblue%ad  %Creset%s%Cgreen  [%cn] %Cred%d' --decorate --date=short --grep=$1; }; f"
+
+	# List contributors with number of commits.
+	contributors = shortlog --summary --numbered
+
+	# Show the user email for the current repository.
+	whoami = config user.email
+
+	# List aliases.
+	aliases = config --get-regexp alias
+
+[pager]
+	branch = false
+
+[init]
+	defaultBranch = main

@@ -18,12 +18,17 @@ export JAVA_HOME=`/usr/libexec/java_home`
 
 source $ZSH/oh-my-zsh.sh
 
+# Load the shell dotfiles, and then some:
+# * ~/.path can be used to extend `$PATH`.
+# * ~/.extra can be used for other settings you don’t want to commit.
+for file in ~/.{path,aliases,functions,extra}; do
+    [ -r "$file" ] && [ -f "$file" ] && source "$file";
+done;
+unset file;
+
 # You may need to manually set your language environment
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
-
-# Aliases
-source $HOME/.aliases
 
 # Ruby
 export PATH="/usr/local/opt/ruby/bin:$PATH"

@@ -13,7 +13,6 @@ ZSH_THEME="af-magic-timestamp-no-user"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git osx fasd)
 
-export PATH="/Library/Frameworks/Python.framework/Versions/3.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$HOME/.cargo/bin"
 export JAVA_HOME=`/usr/libexec/java_home`
 
 source $ZSH/oh-my-zsh.sh
@@ -31,9 +30,7 @@ export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 
 # Ruby
-export PATH="/usr/local/opt/ruby/bin:$PATH"
 export GEM_HOME=$HOME/gems
-export PATH=$HOME/gems/bin:$PATH
 eval "$(rbenv init -)"
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"

@@ -3,7 +3,7 @@
 
 [credential]
 	helper = osxkeychain
-	useHttpPath = false
+	useHttpPath = true
 
 [core]
 	excludesfile = ~/.gitignore_global

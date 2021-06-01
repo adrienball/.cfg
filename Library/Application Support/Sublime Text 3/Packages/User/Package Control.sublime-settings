@@ -8,6 +8,7 @@
 		"Asciidoctor",
 		"Babel",
 		"Better CoffeeScript",
+		"Crystal",
 		"Git",
 		"GitGutter",
 		"LaTeXTools",
@@ -21,5 +22,5 @@
 		"StandardFormat",
 		"SublimeLinter",
 		"Swift"
-	]
+	],
 }

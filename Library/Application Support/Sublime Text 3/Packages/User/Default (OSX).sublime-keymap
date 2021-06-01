@@ -1,0 +1,4 @@
+[
+    { "keys": [ "ctrl+alt+j" ], "command": "pretty_json" },
+    { "keys": [ "ctrl+alt+m" ], "command": "un_pretty_json" },
+]

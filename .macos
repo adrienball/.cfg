@@ -69,6 +69,9 @@ defaults write com.apple.dock showLaunchpadGestureEnabled -int 0
 # Minimise windows using Scale effect
 defaults write com.apple.dock mineffect -string "scale"
 
+# Disable bouncing icons
+defaults write com.apple.dock no-bouncing -bool TRUE
+
 ###############################################################################
 # Mac App Store                                                               #
 ###############################################################################

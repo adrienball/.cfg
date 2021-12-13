@@ -820,7 +820,7 @@
 			<key>Show Status Bar</key>
 			<true/>
 			<key>Silence Bell</key>
-			<false/>
+			<true/>
 			<key>Smart Cursor Color</key>
 			<true/>
 			<key>Smart Selection Rules</key>

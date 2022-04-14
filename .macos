@@ -72,6 +72,10 @@ defaults write com.apple.dock mineffect -string "scale"
 # Disable bouncing icons
 defaults write com.apple.dock no-bouncing -bool TRUE
 
+# Disable quick note on bottom right corner
+defaults write com.apple.dock wvous-br-corner -int 1
+defaults write com.apple.dock wvous-br-modifier -int 1048576
+
 ###############################################################################
 # Mac App Store                                                               #
 ###############################################################################

@@ -5,11 +5,10 @@
 		"http"
 	],
 	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
-	"font_size": 11,
+	"font_size": 13,
 	"ignored_packages":
 	[
 		"JavaScript",
-		"Markdown",
 		"Vintage",
 	],
 	"translate_tabs_to_spaces": true,

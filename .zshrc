@@ -19,8 +19,9 @@ source $ZSH/oh-my-zsh.sh
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
+# * ~/.aliases_local is meant for aliases that you don't want to commit
 # * ~/.extra can be used for other settings you don’t want to commit.
-for file in ~/.{path,aliases,functions,extra}; do
+for file in ~/.{path,aliases,aliases_local,functions,extra}; do
     [ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
 unset file;

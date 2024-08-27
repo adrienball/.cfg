@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # ~/.cfg dotfiles git repo
-alias config="/usr/local/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
+alias config="git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
 
 # fasd
 alias o='a -e open'

@@ -210,6 +210,8 @@
 	<integer>7</integer>
 	<key>LeftOption</key>
 	<integer>2</integer>
+	<key>LogTimestampsWithPlainText</key>
+	<false/>
 	<key>MaxVertically</key>
 	<false/>
 	<key>New Bookmarks</key>
@@ -779,7 +781,7 @@
 			<key>Screen</key>
 			<integer>-1</integer>
 			<key>Scrollback Lines</key>
-			<integer>100000</integer>
+			<integer>0</integer>
 			<key>Scrollback With Status Bar</key>
 			<false/>
 			<key>Scrollback in Alternate Screen</key>
@@ -1005,7 +1007,7 @@
 			<key>Triggers</key>
 			<array/>
 			<key>Unlimited Scrollback</key>
-			<false/>
+			<true/>
 			<key>Use Bold Font</key>
 			<true/>
 			<key>Use Bright Bold</key>
@@ -1101,8 +1103,6 @@
 	<true/>
 	<key>SmartPlacement</key>
 	<false/>
-	<key>Snippets</key>
-	<array/>
 	<key>SoundForEsc</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
@@ -1127,8 +1127,7 @@
 	<integer>10</integer>
 	<key>ToolbeltTools</key>
 	<array>
-		<string>Command History</string>
-		<string>Recent Directories</string>
+		<string>Snippets</string>
 	</array>
 	<key>TripleClickSelectsFullWrappedLines</key>
 	<false/>

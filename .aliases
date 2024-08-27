@@ -11,10 +11,11 @@ alias gs="git status"
 
 # virtualenv
 alias avenv=". .venv/bin/activate 2>/dev/null || . venv/bin/activate"
-alias mkvenv="virtualenv -p python3.9 .venv"
-alias mkvenv37="virtualenv -p python3.7 .venv"
-alias mkvenv38="virtualenv -p python3.8 .venv"
-alias mkvenv39="virtualenv -p python3.9 .venv"
+alias mkvenv="uv venv -p python3.9 --seed .venv"
+alias mkvenv37="uv venv -p python3.7 --seed .venv"
+alias mkvenv38="uv venv -p python3.8 --seed .venv"
+alias mkvenv39="uv venv -p python3.9 --seed .venv"
+alias mkvenv310="uv venv -p python3.10 --seed .venv"
 
 # navigation shortcuts
 alias dl="cd ~/Downloads"

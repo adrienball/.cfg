@@ -8,6 +8,7 @@ alias o='a -e open'
 
 # git
 alias gb="git branch"
+alias gco="git checkout"
 alias gs="git status"
 
 # virtualenv

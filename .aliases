@@ -7,6 +7,7 @@ alias config="git --git-dir=$HOME/.cfg/ --work-tree=$HOME"
 alias o='a -e open'
 
 # git
+alias gb="git branch"
 alias gs="git status"
 
 # virtualenv

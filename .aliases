@@ -32,10 +32,4 @@ alias zshconfig="subl ~/.zshrc"
 # print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
 
-# show/hide hidden files in Finder
-alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
-alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
 
-# app shortcuts
-alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
-alias pycharm="/Applications/PyCharm\ CE.app/Contents/MacOS/pycharm"

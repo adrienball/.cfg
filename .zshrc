@@ -13,8 +13,6 @@ ZSH_THEME="af-magic-no-timestamp-no-user"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git macos fasd)
 
-export JAVA_HOME=`/usr/libexec/java_home`
-
 source $ZSH/oh-my-zsh.sh
 
 # Load the shell dotfiles, and then some:
@@ -29,9 +27,5 @@ unset file;
 # You may need to manually set your language environment
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
-
-# Ruby
-export GEM_HOME=$HOME/gems
-eval "$(rbenv init -)"
 
 # test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
